@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer = "true">
+
+    <!--标题-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="小实例" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button_wuziqi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="五子棋"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/cnvcs_gomoku_128px"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp" />
+
+                <Button
+                    android:id="@+id/button_calculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="计算器"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/calculator_128px"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="日历"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/calendar_128"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp" />
+
+                <Button
+                    android:id="@+id/button_tools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="工具"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/tools_128px"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/button_cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Activity生命周期"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/cycle_128px"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button_intent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Intent"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/jumpto_128px"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/button_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Dialog"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/dialog_128"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Menu"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/menu_128"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/button_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="通知栏"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/notification_128"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp" />
+                <Button
+                    android:id="@+id/button_list_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="列表"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/list_128"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/button_share_parameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="共享参数"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/share_128"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button_sqlite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="SQLite"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/database_128"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/button_broadcast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="广播"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/broadcast_128"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button_server"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="服务"
+                    android:textColor="#f00"
+                    android:textAlignment="center"
+                    android:background="@mipmap/server_128px"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

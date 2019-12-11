@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/activity"
+    tools:context=".ActivityLife"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text_activity"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textAlignment="center"
+        android:textColor="#836FFF"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp" >
+        <Button
+            android:id="@+id/button_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onCreate()"
+            android:textAlignment="center" />
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onStart()"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/button_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onResume()"
+            android:textAlignment="center" />
+        <Button
+            android:id="@+id/button_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onPause()"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onStop()"
+            android:textAlignment="center" />
+        <Button
+            android:id="@+id/button_destroy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onDestroy()"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/button_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="onRestart()"
+            android:textAlignment="center" />
+        <Button
+            android:id="@+id/button_clearActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#CD00CD"
+            android:gravity="center_vertical"
+            android:text="清除"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

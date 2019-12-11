@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">低调小怪</string>
+    <string name="calculate">计算器</string>
+    <string name="Hcalculate">科学计算器</string>
+    <string name="wuziqi">五子棋</string>
+    <string name="calendar">日历</string>
+    <string name="tools">快速启动</string>
+    <string name="intent">Intent学习</string>
+    <string name="lifeCycle">Activity生命周期</string>
+    <string name="dialog">Dialog</string>
+    <string name="menu">菜单</string>
+    <string name="notification">通知栏</string>
+    <string name="list">列表</string>
+    <string name="sharep">共享参数</string>
+</resources>

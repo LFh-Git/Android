@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android">
+    <!-- <uses-permission android:name="android.permission.SET_ALARM"/> 这种方法加权限模拟器没问题，手机不行 -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lsxg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MySharedPreferences"
+            android:label="@string/sharep"/>
+
+        <activity android:name=".MyListView"
+            android:label="@string/list"/>
+        <activity
+            android:name=".MyNotification"
+            android:label="@string/notification" />
+        <activity
+            android:name=".MyMenu"
+            android:label="@string/menu" />
+        <activity
+            android:name=".MyDialog"
+            android:label="@string/dialog" />
+        <activity android:name=".Intent4" />
+        <activity
+            android:name=".Intent3"
+            android:label="@string/intent" />
+        <activity
+            android:name=".Intent2"
+            android:label="@string/intent">
+            <intent-filter>
+                <action android:name="android.intent.action.IntentTwo" />
+
+                <category android:name="android.intent.category.CateIntentTow" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intent1"
+            android:label="@string/intent" />
+        <activity
+            android:name=".ActivityLife"
+            android:label="@string/lifeCycle" />
+        <activity
+            android:name=".MyIntent"
+            android:label="@string/intent" />
+        <activity
+            android:name=".Mytools"
+            android:label="@string/tools" />
+        <activity
+            android:name=".MyCalendar"
+            android:label="@string/calendar" />
+        <activity
+            android:name=".Wuziqi"
+            android:label="@string/wuziqi" />
+        <activity
+            android:name=".Calculator"
+            android:label="@string/calculate" />
+        <activity
+            android:name=".HorizontalCal"
+            android:label="@string/Hcalculate" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
