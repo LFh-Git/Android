@@ -19,7 +19,7 @@ public class MyListView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
 
-        init();
+        init();//数据初始化
 
         CatAdapter adapter = new CatAdapter(MyListView.this, R.layout.cat_item, cats);
 
